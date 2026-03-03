@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Onyinye Ofornagoro
+# DATE:03/02/2026 
+# BRIEF DESCRIPTION: Giving the user a compliment 
 
 
 
@@ -15,14 +15,20 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
+    if_compliment()
 
+def if_compliment():
+    compliment = input("Would you like a compliment? ")
 
+    if 'yes' == compliment:
+        print("You have wonderful eyes.")
+    else:
+        print("No compliment for you!")
+    
+    print("Thank you for playing.")
 
-
-
-
-
-
+main()
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -71,6 +77,7 @@ Thank you for playing.
 
 1. Did you struggle with this lab (YES/NO)?
 
+No.
 
 
 
